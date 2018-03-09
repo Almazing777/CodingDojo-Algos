@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>basic 13</title>
+    <script type="text/javascript">
+
+    //Given an array, move all values forward by one index, dropping the first and leaving a '0' value at the end.
+    function ShiftArrayValues(){
+        var arr = [1,5,10,7,-2];
+        for(var i=0; i<arr.length; i++){
+            arr[i] = arr[i+1];
+        }
+        arr[arr.length-1] = 0;
+        return arr;
+    }
+    console.log(ShiftArrayValues());
+    
+	</script>
+</head>
+<body>
+
+
+
+</body>
+</html>
