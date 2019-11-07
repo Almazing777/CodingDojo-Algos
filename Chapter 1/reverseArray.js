@@ -8,4 +8,4 @@
         console.log(arr);
         return arr;
     }
-    reverseArray([1,2,3,4,5]);
+    reverseArray([1,2,3,4,5,6,77,8,9,10]);
